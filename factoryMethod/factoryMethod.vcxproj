@@ -145,11 +145,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="EHApp.h" />
+    <ClInclude Include="EHView.h" />
+    <ClInclude Include="MyApp.h" />
+    <ClInclude Include="MyView.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="factoryMethod.cpp" />
+    <ClCompile Include="Demo.cpp" />
+    <ClCompile Include="EHApp.cpp" />
+    <ClCompile Include="MyApp.cpp" />
+    <ClCompile Include="MyView.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
